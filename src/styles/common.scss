@@ -1,0 +1,30 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: PingFang SC, Microsoft YaHei, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active {
+  color: #272727;
+}
+
+.layout-width {
+  width: 1200px;
+  // max-width: 1200px;
+  margin: auto;
+}
+h2{
+  padding: 0;
+  margin: 0;
+}

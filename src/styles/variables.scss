@@ -1,0 +1,29 @@
+// color
+$primaryColor: #f0f5fa;
+
+/* Break-point */
+$sm: 768px !default;
+$md: 992px !default;
+$lg: 1200px !default;
+$xl: 1920px !default;
+$xs: $sm - 1 !default;
+
+/* header */
+$navHeight: 106px;
+$menuHeight:85px;
+/* footer */
+$footerHeight: 230px;
+
+/* font-size*/
+$font-title:16px;
+$font-content:14px;
+
+
+
+
+:export {
+  navHeight: $navHeight;
+  menuHeight:$menuHeight;
+  footerHeight: $footerHeight;
+  primaryColor: $primaryColor;
+}
